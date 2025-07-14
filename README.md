@@ -1,106 +1,108 @@
-# School Website — Fullstack Application
+School Website — Fullstack Application
 
-This is a full-fledged school portal developed using React for the frontend and Flask for the backend. The application supports role-based access control for Admins, Teachers, and Students, and includes modules for admissions, academics, events, marks management, and performance analytics.
+A full-fledged school portal developed using React for the frontend and Flask for the backend. The application supports role-based access control for Admins, Teachers, and Students, and includes modules for admissions, academics, events, marks management, and performance analytics.
 
----
+Features
 
-## Features
+Authentication & Role Management:
 
-### Authentication & Role Management
-- Secure login system with Admin, Teacher, and Student roles
-- Session persistence using `localStorage`
-- Logout and route protection
+Secure login system with Admin, Teacher, and Student roles
 
-### Admissions Module
-- Public-facing admission form
-- Admin view of all submitted applications
-- JSON-based storage for data persistence
+Session persistence using localStorage
 
-### Academics Section
-- Displays curriculum by class
-- Faculty list with subjects and experience
+Logout and route protection
 
-### Events Section
-- Event display cards with title, description, and images
+Admissions Module:
 
-### Teacher Dashboard
-- Submit marks for students per subject
-- Automatically updates or replaces existing records
+Public-facing admission form
 
-### Student Dashboard
-- View own academic marks
-- Dashboard restricted to logged-in student
+Admin view of all submitted applications
 
-### Admin Dashboard
-- Subject-wise performance analytics:
-  - Average, highest, and lowest marks
-- Admissions summary view
+JSON-based data storage
 
-### Navigation & UI
-- React Router for page-based navigation
-- Shared layout across pages
-- Integrated Back and Logout controls
-- Clean, responsive UI
+Academics Section:
 
----
+Displays curriculum by class
 
-## Tech Stack
+Faculty list with subjects and experience
 
-| Layer      | Technology            |
-|------------|------------------------|
-| Frontend   | React, React Router    |
-| Backend    | Flask (Python)         |
-| Styling    | Custom CSS (inline)    |
-| Storage    | JSON-based persistence |
+Events Section:
 
----
+Event display cards with title, description, and images
 
-## Project Structure
+Teacher Dashboard:
+
+Submit student marks per subject
+
+Marks update if already entered
+
+Student Dashboard:
+
+View personal academic performance
+
+Access restricted to logged-in student
+
+Admin Dashboard:
+
+View subject-wise analytics (average, high, low)
+
+Admissions summary table
+
+Navigation & UI:
+
+Page-based routing with React Router
+
+Role-based navigation bar
+
+Back and Logout controls
+
+Clean, responsive interface
+
+Tech Stack:
+
+Frontend: React, React Router
+Backend: Flask (Python)
+Styling: Custom CSS (inline)
+Storage: JSON files (local file-based storage)
+
+Project Structure:
+
 SchoolWebsite/
-│
+|
 ├── flask-backend/
-│ ├── app.py # Flask API server
-│ ├── admissions.json # Admission records
-│ ├── marks.json # Student marks
-│ └── users.json # Predefined login credentials
-│
+│ ├── app.py -> Flask API server
+│ ├── admissions.json -> Admission form data
+│ ├── marks.json -> Student marks
+│ └── users.json -> User login credentials
+|
 ├── react-frontend/
 │ ├── src/
-│ │ ├── components/ # React UI components
-│ │ └── App.js # Frontend routes and logic
+│ │ ├── components/ -> React UI components
+│ │ └── App.js -> Frontend routing and logic
 │ └── public/
-│
-├── README.md
+|
+└── README.txt
 
------------------------------------------------
+Getting Started
 
----
+Backend (Flask):
 
-## Getting Started
-
-### Backend (Flask)
-bash:
 cd flask-backend
 python -m venv venv
-venv\Scripts\activate  # For Windows
+venv\Scripts\activate (Windows only)
 pip install flask flask-cors
 python app.py
 
-### Frontend (React)
-bash:
-Copy
-Edit
+Frontend (React):
+
 cd react-frontend
 npm install
 npm start
-The application will be available at http://localhost:3000.
 
-## Demo Login Credentials
-| Role    | Username | Password   |
-| ------- | -------- | ---------- |
-| Admin   | admin    | admin123   |
-| Teacher | teacher1 | teacher123 |
-| Student | student1 | student123 |
+Application will be available at http://localhost:3000
 
-### License
-This project is licensed under the MIT License. You are free to use, distribute, and modify the code as needed.
+Demo Login Credentials:
+
+Admin: Username - admin | Password - admin123
+Teacher: Username - teacher1 | Password - teacher123
+Student: Username - student1 | Password - student123
