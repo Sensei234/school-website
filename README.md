@@ -56,4 +56,51 @@ This is a full-fledged school portal developed using React for the frontend and 
 ---
 
 ## Project Structure
+SchoolWebsite/
+│
+├── flask-backend/
+│ ├── app.py # Flask API server
+│ ├── admissions.json # Admission records
+│ ├── marks.json # Student marks
+│ └── users.json # Predefined login credentials
+│
+├── react-frontend/
+│ ├── src/
+│ │ ├── components/ # React UI components
+│ │ └── App.js # Frontend routes and logic
+│ └── public/
+│
+├── README.md
 
+-----------------------------------------------
+
+---
+
+## Getting Started
+
+### Backend (Flask)
+bash:
+cd flask-backend
+python -m venv venv
+venv\Scripts\activate  # For Windows
+pip install flask flask-cors
+python app.py
+
+### Frontend (React)
+bash:
+Copy
+Edit
+cd react-frontend
+npm install
+npm start
+The application will be available at http://localhost:3000.
+
+## Demo Login Credentials
+| Role    | Username | Password   |
+| ------- | -------- | ---------- |
+| Admin   | admin    | admin123   |
+| Teacher | teacher1 | teacher123 |
+| Student | student1 | student123 |
+
+### License
+This project is licensed under the MIT License. You are free to use, distribute, and modify the code as needed.
