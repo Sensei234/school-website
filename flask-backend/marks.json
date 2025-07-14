@@ -1,0 +1,22 @@
+[
+  {
+    "username": "student1",
+    "subject": "Math",
+    "marks": 87
+  },
+  {
+    "username": "student1",
+    "subject": "Science",
+    "marks": 74
+  },
+  {
+    "username": "student1",
+    "subject": "English",
+    "marks": 91
+  },
+  {
+    "username": "Jamal",
+    "subject": "Math",
+    "marks": 61
+  }
+]

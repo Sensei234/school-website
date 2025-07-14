@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Science Fair 2024",
+    "description": "Exhibition of student science projects.",
+    "date": "2024-11-15",
+    "image": "https://via.placeholder.com/300x200?text=Science+Fair"
+  },
+  {
+    "title": "Sports Day",
+    "description": "Track & field events for all classes.",
+    "date": "2024-12-05",
+    "image": "https://via.placeholder.com/300x200?text=Sports+Day"
+  }
+]

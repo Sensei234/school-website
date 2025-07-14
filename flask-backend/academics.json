@@ -1,0 +1,24 @@
+{
+  "classes": [
+    {
+      "class": "Grade 6",
+      "subjects": ["Math", "English", "Science"]
+    },
+    {
+      "class": "Grade 7",
+      "subjects": ["Math", "English", "Science", "History"]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Ms. Priya Sharma",
+      "subject": "Math",
+      "experience": "10 years"
+    },
+    {
+      "name": "Mr. Ahmed Khan",
+      "subject": "Science",
+      "experience": "8 years"
+    }
+  ]
+}
