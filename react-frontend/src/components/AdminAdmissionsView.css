@@ -1,0 +1,26 @@
+.admin-view-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.admissions-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.admissions-table th,
+.admissions-table td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.admissions-table th {
+  background-color: #efefef;
+}
