@@ -4,43 +4,43 @@ A full-fledged school portal developed using React for the frontend and Flask fo
 
 ## Features
 
-**Authentication & Role Management**
+Authentication & Role Management:
 
 - Secure login system with Admin, Teacher, and Student roles
 - Session persistence using localStorage
 - Logout and route protection
 
-**Admissions Module**
+Admissions Module:
 
 - Public-facing admission form
 - Admin view of all submitted applications
 - JSON-based data storage
 
-**Academics Section**
+Academics Section:
 
 - Displays curriculum by class
 - Faculty list with subjects and experience
 
-**Events Section**
+Events Section:
 
 - Event display cards with title, description, and images
 
-**Teacher Dashboard**
+Teacher Dashboard:
 
 - Submit student marks per subject
 - Marks update if already entered
 
-**Student Dashboard**
+Student Dashboard:
 
 - View personal academic performance
 - Access restricted to logged-in student
 
-**Admin Dashboard**
+Admin Dashboard:
 
 - View subject-wise analytics (average, high, low)
 - Admissions summary table
 
-**Navigation & UI**
+Navigation & UI:
 
 - Page-based routing with React Router
 - Role-based navigation bar
@@ -69,11 +69,11 @@ SchoolWebsite/
 │ │ └── App.js → Frontend routing and logic  
 │ └── public/  
 │
-└── README.txt
+└── README.md
 
 ## Getting Started
 
-**Backend (Flask)**
+Backend (Flask):
 
 cd flask-backend  
 python -m venv venv  
@@ -81,7 +81,7 @@ venv\Scripts\activate (for Windows)
 pip install flask flask-cors  
 python app.py
 
-**Frontend (React)**
+Frontend (React):
 
 cd react-frontend  
 npm install  
